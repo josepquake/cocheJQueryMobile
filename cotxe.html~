@@ -1,5 +1,4 @@
 <html>
-
 <head><title>La classe cotxe</title>  
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 	<style type="text/css">	.ui-slider-switch { width: 10em !important }	</style>
@@ -19,7 +18,7 @@
 		// Controls amagats
 		$('#controls').hide();
 		
-		 //Mostra el menu dels controls
+		 
 		$( "#motorStartStop" ).on( 'slidestop', function( event ) {
 			var option = $('#startStop :checked').val();
 			if (option == 0) {
